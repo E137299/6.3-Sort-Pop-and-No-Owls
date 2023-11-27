@@ -1,7 +1,7 @@
 # 6.3-Sort-Pop-and-No-Owls
 ## Sort and Pop  
 
-Create a function,sort_and_pop(), that take a list as an argument. It shoudl sort the list and remove the first and last element in the list. The function will return the modified list.
+Create a function,sort_and_pop(), that take a list as an argument. It should sort the list and remove the first and last element in the list. The function will return the modified list.
 
 **EXAMPLE**
 Function Call:
@@ -34,6 +34,16 @@ Output:
 ## No Owls
 You have a friend who REALLY likes owls, and likes to talk about them a lot. However, you hate reading the word owl so you decide to create a funcion that will replace the letters 'owl' with "bird".
 
-** This function, owl(), will take in a list of words. It will traverse the list and replace 'owl' with 'bird' in any word it aprears in and return the updated list. ** 
+This function, owl(), will take in a list of words. It will traverse the list and replace 'owl' with 'bird' in any word it aprears in and return the updated list.
 
-note: this will create some funny words like hbird instead of howl. this is expected.
+note: This will create some funny words like hbird instead of howl. This is expected.
+
+**Example:**
+Function call:
+```
+no_owls(["bowl","howl","acknowledge","waterfowl","growl"])```
+``` 
+Output:
+```
+["birdl","birdl","acknbirdedge","waterfbird","grbird"]
+```
